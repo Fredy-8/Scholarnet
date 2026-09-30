@@ -295,7 +295,7 @@ class UsuarioScreen(Screen):
         self.add_widget(root)
  
     def on_pre_enter(self):
-        self.label_bienvenida.text = f"🎉 Welcome, {self.nombre_usuario}!"
+        self.label_bienvenida.text = f"🎉 Welcome to ScholarNet, {self.nombre_usuario}!"
  
     def logout(self, instance):
         self.manager.current = "login"
