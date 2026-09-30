@@ -1016,7 +1016,7 @@ class ContactanosScreen(FloatLayout):
  
         # Título
         layout.add_widget(Label(
-            text='[b]CONTACT\nUS[/b]',
+            text='[b]CONTACT US[/b]',
             markup=True,
             font_size=28,
             font_name='Garet-Heavy.ttf',
