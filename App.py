@@ -139,7 +139,7 @@ class LoginScreen(Screen):
         login_button.bind(on_press=self.validate_login)
         layout.add_widget(login_button)
         register_button = RoundedButton(
-            text='Register',
+            text='Create Account',
             background_color=(118/225, 154/225, 199/255, 0.8),
             color=(1,1,1,1),
             height=40,
