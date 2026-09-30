@@ -124,7 +124,7 @@ class LoginScreen(Screen):
         logo = Image(source='logo.png', size_hint=(None, None), size=(200, 200), pos_hint={'center_x':0.5})
         layout.add_widget(logo)
 
-        layout.add_widget(Label(text='Login', font_size=44))
+        layout.add_widget(Label(text='Welcome to ScholarNet', font_size=40))
         self.usuario = RoundedInput(hint_text="Username", multiline=False)
         layout.add_widget(self.usuario)
         self.clave = RoundedInput(hint_text="Password", password=True, multiline=False)
