@@ -250,7 +250,7 @@ class UsuarioScreen(Screen):
         # Contenedor principal centrado
         self.layout = BoxLayout(
             orientation='vertical',
-            spacing=20,
+            spacing=25,
             padding=[20, 40, 20, 40],  # padding: left, top, right, bottom
             size_hint=(0.7, None),
             height=240,
